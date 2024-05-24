@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+:root{
+    --main-bg: #F2F5F9;
+    --card-bg: #FFFFFF;
+    --main-lt: #111729;
+    --seco-lt: #677489;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--main-bg);
+    font-family: "Lato", sans-serif;
+}
+.topside{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+h1{
+    color: var(--main-lt);
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+section{
+    background-color: var(--card-bg);
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+
+section,
+section img{
+    border-radius: 0px 0px 10px 10px;
+    height: fit-content;
+}
+
+section div{
+    width: 300px;
+    padding: 0px 20px 20px 20px;
+}
+.img2{
+    position: absolute;
+    margin-bottom: -1px;
+}
+p{
+    color: var(--seco-lt);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.img1{
+    border-radius: 10px;
+}
+.img1, .img2{
+    width: 340px;
+}
+.author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px solid var(--main-bg);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 11px;
+}
+.author span h3{
+    color: var(--main-lt);
+}
+.author span{
+    color: var(--seco-lt);
+    font-weight: 400;
+}
+.author img{
+    border-radius: 50%;
+    width: 30px;
+    padding: 5px;
+    background-color: var(--main-bg);
+}
