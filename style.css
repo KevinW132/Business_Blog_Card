@@ -76,7 +76,7 @@ p{
     font-weight: 400;
 }
 .author img{
-    border-radius: 50%;
+    border-radius: 25px;
     width: 30px;
     padding: 5px;
     background-color: var(--main-bg);
